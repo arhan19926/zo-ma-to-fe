@@ -1,0 +1,11 @@
+.navbar {
+  position: relative;
+  background-color: #ebe9d6;
+  width: 100vw;
+  height: 2.5rem;
+  display: flex;
+}
+
+* {
+  display: flex;
+}

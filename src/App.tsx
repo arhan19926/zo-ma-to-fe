@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Login from './components/Login';
+import React from "react";
+import logo from "./logo.svg";
+import styles from "./sass/app.module.scss";
+import Login from "./components/Login";
+import HomePage from "./components/branding";
+import Navbar from "./components/navbar";
+import Maincontainer from "./components/main-container";
 
 function App() {
   return (
     <div className="App">
-      <Login></Login>
+      {/* <Navbar /> */}
+      <Maincontainer />
     </div>
   );
 }

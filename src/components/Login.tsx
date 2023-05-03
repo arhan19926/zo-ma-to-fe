@@ -1,11 +1,12 @@
 import React from 'react'
-import './sass/login.scss';
+import styles from './sass/login.module.scss';
 
 const Login = () => {
   return (
-    <form className='loginForm' action="#" onSubmit={()=>console.log(`submitted`)}>
-      <input type="text" className='textField' placeholder='Username' />
-      <input type="text" className='textField' placeholder='Password' />
+    <form className={styles.loginForm} action="#" onSubmit={()=>console.log(`submitted`)}>
+      <input type="text" className={styles.textField} placeholder='Username' />
+      <input type="password" className={styles.textField} placeholder='Password' />
+      <button type="submit" className={styles.submitButton}>Login</button>
     </form>
   )
 }
