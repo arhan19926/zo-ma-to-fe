@@ -4,24 +4,34 @@
 }
 
 .loginForm {
-    background-color: #faf5d2;
+    background-color: #fff;
     width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
 
 
     .textField {
-        font-size: 1rem;
-        padding: 0.5rem;
+        background-color: #f8f9fd;
+        font-size: 1.5rem;
+        padding: 1.5rem 4rem;
+        border:none;
+        // border: 2px solid rgb(247, 247, 247);
         border-radius: 8px;
-        outline: none;
-        border-width: 2px;
-        border-color: rgb(215, 200, 200);
+        outline:none;
     }
+    .textField:hover,:focus{
+        border: 2px solid rgb(213, 210, 210);
+    }
+    
+    .forgotpass-btn{
+        position: relative;
+        left:2rem;
+    }
+   
 
     .logoImg {
         width: 100px;
@@ -29,18 +39,16 @@
     }
 
     .submitButton {
-
-        border-radius: 12px;
-        border-color: #faf5d2;
-        background: tomato;
+        border: 2px solid #43a027;
+        background: #4c9a34;
         color: white;
-        padding: 8px 16px;
+        padding: 0.7rem 2.5rem;
         cursor: pointer;
-        font-family: cursive;
-        font-style: oblique;
+        font-family:Verdana, Geneva, Tahoma, sans-serif        
     }
 
     .submitButton:hover {
-        border-color:#c5c1a6;
+        border: 2px solid #299906;
+        background-color: #30aa0b;
     }
 }

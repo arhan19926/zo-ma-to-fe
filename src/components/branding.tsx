@@ -4,6 +4,7 @@ import styles from "./sass/branding.module.scss";
 const HomePage = () => {
   return (
     <div className={styles.leftContainer}>
+      <img src = './images/main-bg.jpg' alt='bgpic' className={styles.mainImg}></img>
       <img src="./images/zomato_logo_.png" alt="zomaLogo" className= {styles.logoImg} />
     </div>
   );

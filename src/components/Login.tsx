@@ -7,7 +7,8 @@ const Login = () => {
     <form className={styles.loginForm} action="#" onSubmit={()=>console.log(`submitted`)}>
       <input type="text" className={styles.textField} placeholder='Email' />
       <input type="password" className={styles.textField} placeholder='Password' />
-      <button type="submit" className={styles.submitButton}>Login</button>
+      <a className='forgotpass-btn' href='#'>Forgot Password</a>
+      <button type="submit" className={styles.submitButton}>Sign In</button>
     </form>
    
   )
