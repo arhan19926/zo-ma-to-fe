@@ -16,15 +16,22 @@
 
     .textField {
         background-color: #f8f9fd;
-        font-size: 1.5rem;
-        padding: 1.5rem 4rem;
+        font-size: 1.25rem;
+        // display: flex;
+        padding: 1.25rem 5.25rem;
+        // justify-content: start;
         border:none;
         // border: 2px solid rgb(247, 247, 247);
         border-radius: 8px;
         outline:none;
+        ::-webkit-input-placeholder {
+            color: red;
+        }
     }
     .textField:hover,:focus{
-        border: 2px solid rgb(213, 210, 210);
+        border: 1px solid rgb(213, 210, 210);
+        box-sizing: border-box;
+        
     }
     
     .forgotpass-btn{
@@ -34,17 +41,19 @@
    
 
     .logoImg {
-        width: 100px;
+        width: 222px;
         height: 100px;
     }
 
     .submitButton {
+        padding: 15px 179px;
         border: 2px solid #43a027;
+        border-radius: 8px;
         background: #4c9a34;
         color: white;
-        padding: 0.7rem 2.5rem;
         cursor: pointer;
-        font-family:Verdana, Geneva, Tahoma, sans-serif        
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .submitButton:hover {

@@ -1,4 +1,7 @@
 .mainContainer{
     display: flex;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: none;
     // justify-content: space-between;
 }
