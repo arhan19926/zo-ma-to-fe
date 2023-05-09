@@ -1,7 +1,7 @@
 import React from 'react'
 import HomePage from './leftPanel'
 import Login from './rightPanelLogin'
-import styles from '../../components/sass/page.module.scss'
+import styles from '../../pages/sass/login/mainContainer.module.scss'
 
 const Maincontainer = () => {
   return (
