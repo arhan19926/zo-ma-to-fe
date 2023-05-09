@@ -1,8 +1,7 @@
 import { useRoutes } from "react-router-dom"
-import Home from "../components/home"
-import Login from "../components/Login"
-import ErrorHandler from "../components/error-handler"
-import Maincontainer from "../components/main-container"
+import Home from "../pages/home/home"
+import ErrorHandler from "../pages/error/error-handler"
+import Maincontainer from "../pages/login/mainContainer"
 
 
 

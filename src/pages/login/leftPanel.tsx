@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./sass/branding.module.scss";
+import styles from "../../components/sass/branding.module.scss";
 
 const HomePage = () => {
   return (

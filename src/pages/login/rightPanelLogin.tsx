@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './sass/login.module.scss';
+import styles from '../../components/sass/login.module.scss';
 import { NavLink, useNavigate } from 'react-router-dom';
 
 const Login = () => {

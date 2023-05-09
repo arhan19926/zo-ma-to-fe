@@ -1,7 +1,7 @@
 import React from 'react'
-import HomePage from './branding'
-import Login from './Login'
-import styles from './sass/page.module.scss'
+import HomePage from './leftPanel'
+import Login from './rightPanelLogin'
+import styles from '../../components/sass/page.module.scss'
 
 const Maincontainer = () => {
   return (
