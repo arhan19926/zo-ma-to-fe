@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 20px;
+    height:100vh;
 }
 
 .carouselContainer {
     max-width: 100vw;
-    height: 50%;
+    height: 80vh;
     display: flex;
 }
 
@@ -15,11 +15,11 @@
 .carousel,
 .carousel>.slider-wrapper,
 .carousel>.slider-wrapper>.slider {
-    height: 100%;
+    height: 80%;
 }
 
 .image-container {
-    height: 100%;
+    height: 70vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,5 +31,14 @@
     margin: 0;
     position: relative;
     text-align: center;
-    height: 100vh !important;
+    height: 80vh;
 }}
+
+.slide img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit:fill;
+}
