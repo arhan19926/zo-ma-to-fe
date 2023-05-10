@@ -53,7 +53,6 @@ const items = [
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Carousel
         className="carouselWrapper"
         showThumbs={false}
