@@ -42,6 +42,12 @@ const items = [
     image:
       "https://www.hotelwelkinresidency.com/wp-content/uploads/2017/12/Mutton-Rogan-josh.jpg",
   },
+  {
+    id: 7,
+    name: "Item 7",
+    image:
+      "https://images5.alphacoders.com/913/913328.jpg",
+  },
 ];
 
 const Home = () => {
