@@ -58,6 +58,7 @@ const Home = () => {
         showThumbs={false}
         autoPlay
         infiniteLoop
+        stopOnHover={false}
       >
         {items.map((item) => (
           <img src={item.image} alt={item.name} key={item.id} />
