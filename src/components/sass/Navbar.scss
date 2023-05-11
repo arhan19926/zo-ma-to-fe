@@ -1,0 +1,34 @@
+
+$zomato-red: #eb3d51;
+
+.navWrapper{
+    margin: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: #12141a;
+}
+
+
+.main-nav{
+    margin: 0%;
+    color:$zomato-red;
+    // background-color: #393d4a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1px;
+
+    ul{
+        border: 2px solid gray;
+        padding:14px 20px
+    }
+    img{
+       width: 70px;
+       height: 45px;
+       padding-right: 780px;
+    }
+} 
+
+ul{
+    cursor: pointer;
+}

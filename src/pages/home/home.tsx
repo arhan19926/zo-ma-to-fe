@@ -3,8 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import './home.scss';
 import "../sass/home/home.scss";
 import { Carousel } from "react-responsive-carousel";
-// import Navbar from "../../components/Navbar";
-
+import Navbar from "../../components/navbar/Navbar";
 const items = [
   {
     id: 1,
@@ -53,6 +52,7 @@ const items = [
 const Home = () => {
   return (
     <>
+    <Navbar/>
       <Carousel
         className="carouselWrapper"
         showThumbs={false}
