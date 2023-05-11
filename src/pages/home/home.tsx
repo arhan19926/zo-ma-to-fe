@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../sass/home/home.scss";
 import { Carousel } from "react-responsive-carousel";
 import Navbar from "../../components/navbar/Navbar";
+import Cards from "../../components/mainCards/Cards";
 const items = [
   {
     id: 1,
@@ -64,6 +65,7 @@ const Home = () => {
           <img src={item.image} alt={item.name} key={item.id} />
         ))}
       </Carousel>
+      <Cards/>
     </>
   );
 };
